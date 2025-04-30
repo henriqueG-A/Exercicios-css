@@ -1,0 +1,91 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: sans-serif;
+text-decoration: none;
+}
+
+.top{
+    background-color: rgb(76, 49, 16);
+}
+
+.floatl {
+    float: left;
+}
+
+.floatl img {
+    display: inline-block;
+    vertical-align: middle; 
+    margin-left: 30px;
+}
+
+.floatl h1 {
+    display: inline-block; 
+    vertical-align: middle; 
+    margin-left: 20px; 
+}
+
+.hmain{
+    width: 100%;
+    height: 250px;
+    background-color: burlywood;
+    position: relative;
+}
+
+
+h1{
+    color: darkgoldenrod;
+    font-size: 80px;
+    font-family: Playwrite ro Regular; ;
+}
+
+.hdown{
+    background-color: rgb(76, 49, 16);
+    width: 100%;
+    height: 50px;
+    text-align: center;
+
+}
+
+.hdown ul li{
+    display: inline-block;
+    margin-top: 10px;
+    margin-down: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-right: solid 1px #7d7d7d;
+    border-left: solid 1px #7d7d7d;
+    pointer-events:painted;
+}
+
+.hdown ul  li:hover{
+background-color: darkgoldenrod ;
+cursor: pointer;
+}
+
+
+
+input {
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-position: right;
+    height: 30px;
+    width: 200px;
+    margin: 60px 30px;
+    float: right;
+   }
+
+   input.search {
+    position: absolute;
+    top: 60px; /* Ajuste conforme necessário */
+    right: 30px; /* Ajuste conforme necessário */
+   }
+ 
+
+
+.clear{
+    clear: both;
+}
