@@ -15,14 +15,14 @@
 
 body{
     font-family: sans-serif;
+    background-color: #1f1f1f;
 }
 
 header{
     background-color: black;
     height: 60px;
     display: flex;
-    justify-content: center
-    ;
+    justify-content: center;
     flex-direction: row;
 }
 
@@ -47,9 +47,45 @@ header{
     padding-top: 25px;
 }
 
-.imgf{
-   
+.img1{
+margin-left: 500px;
 }
+
+.main{
+    margin-top: 30px;
+     display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.main h1{
+    padding: 20px;
+    color: rgb(101, 101, 101);
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.h1m{
+    box-sizing: border-box;
+ margin-right: 250px;
+}
+
+.img2{
+    margin-left: 50px;
+}
+
+.img-legenda {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.legenda {
+    color: #333;
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+
     </style>
 
 </head>
@@ -69,8 +105,24 @@ header{
 
     <div class="headerD">
 
-<img src="img/WhatsApp_Image_2024-08-21_at_11.22.12-removebg-preview.png" alt="">
+<img class="img1" src="img/WhatsApp_Image_2024-08-21_at_11.22.12-removebg-preview.png" alt="">
 
     </div>
 
+    <main>
+
+        <div class="main">
+        
+        <h1>Noticias</h1>
+
+
+        <h1 class="h1m">Coluna</h1>
+
+        </div>
+
+
+        <img class="img2" width="60%" src="img/sushi-engorda.jpg" >
+
+        <p class="legenda">Sushi: saudável ou calórico? Descubra!</p>
+    </main>
 </body>
